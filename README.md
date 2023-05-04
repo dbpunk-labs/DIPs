@@ -1,7 +1,9 @@
 # DB3 Network:A Decentralized and Scalable AR-Rollup Data Network
 
-## Overview
 
+
+
+db3 network is a fully decentralized data network. You can fully control your data, nobody can delete or modify your data and you can reach your data from any application in the db3 network. db3 network has the following technology features
 ```mermaid
 graph TD
     subgraph protocol
@@ -37,7 +39,13 @@ graph TD
             direction RL
             style blocks fill:#fff,stroke:#333,stroke-width:1px
         end
-        blocks --> Indexer
+        subgraph indexer
+            Btree
+            Graph
+            Vector
+            style indexer fill:#fff,stroke:#333,stroke-width:1px
+        end
+        blocks --> indexer
         style layer2 fill:#fff,stroke:#333,stroke-width:1px
         direction LR
     end
@@ -52,6 +60,14 @@ graph TD
     layer2 --> |Rollup|layer1
 ```
 
+* `Permanent Level  Data Availability`, data availability is the most important things in the decentralized network and db3 network uses arweave as a long term data availability layer to achieve the permanent level data availability
+* `AR-Rollup`, db3 network itself will act a short term data availability layer and uses ar-rollup to improve the write throughput, reduce the storage cost and support privacy protection
+* `Web2 Developer Experience`, you can use db3.js like using firebase sdk
+
 ## DIPS
 
 * [DIP-000: Structured Binary Data Format](./dips/dip-000.md)
+
+## Contribution
+
+if you are interested in db3 network, you can propose an improvement propsal here
