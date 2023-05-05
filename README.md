@@ -2,7 +2,6 @@
 
 
 
-
 db3 network is a fully decentralized data network. You can fully control your data, nobody can delete or modify your data and you can reach your data from any application in the db3 network. db3 network has the following technology features
 ```mermaid
 graph TD
@@ -65,8 +64,9 @@ graph TD
 * `Web2 Developer Experience`, you can use db3.js like using firebase sdk
 
 ## DIPS
-
-* [DIP-000: Structured Binary Data Format](./dips/dip-000.md)
+| title   |    author     | status |
+|----------|-------------|---------|
+|[DIP-000: Structured Binary Data Format](./dips/dip-000.md)| [imotai](https://github.com/imotai) | wip |
 
 ## Contribution
 
