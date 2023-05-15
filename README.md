@@ -1,4 +1,4 @@
-# DB3 Network:A Decentralized and Scalable AR-Rollup Data Network
+# DB3 Network:A Decentralized and Scalable Data-Rollup Data Network
 
 
 
