@@ -50,7 +50,7 @@ graph TD
     end
 
     subgraph layer1
-        Etherum
+        L1
         Arweave
         style layer1 fill:#fff,stroke:#333,stroke-width:1px
     end
