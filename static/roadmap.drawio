@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-05-08T14:57:42.441Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="bOr9hqt_reswXqqM6bnd" version="21.2.1" type="device" pages="3">
+<mxfile host="Electron" modified="2023-05-09T02:28:32.681Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="bermPEh3ZnQ8ol8z-Fik" version="21.2.1" type="device" pages="3">
   <diagram name="roadmp" id="sTeOyVe8UKn4-iUAQNWK">
     <mxGraphModel dx="3310" dy="2435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -365,10 +365,43 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1tZuJpG3Ew3iuHeMEjwP" name="Page-3">
-    <mxGraphModel dx="2460" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3310" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tf0KDH5JNFZDhrI9Wzak-3" value="Transacion&lt;br&gt;Data" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tf0KDH5JNFZDhrI9Wzak-1" target="tf0KDH5JNFZDhrI9Wzak-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tf0KDH5JNFZDhrI9Wzak-1" value="evm&lt;br&gt;node" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tf0KDH5JNFZDhrI9Wzak-2" value="arweave" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tf0KDH5JNFZDhrI9Wzak-4" value="A&amp;nbsp; standalone L3 node including Lens Contract" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="555" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tf0KDH5JNFZDhrI9Wzak-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tf0KDH5JNFZDhrI9Wzak-7" target="tf0KDH5JNFZDhrI9Wzak-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tf0KDH5JNFZDhrI9Wzak-7" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="375" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tf0KDH5JNFZDhrI9Wzak-12" value="Transaction&lt;br&gt;Data" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tf0KDH5JNFZDhrI9Wzak-10" target="tf0KDH5JNFZDhrI9Wzak-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tf0KDH5JNFZDhrI9Wzak-10" value="evm&lt;br&gt;node" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tf0KDH5JNFZDhrI9Wzak-11" value="db3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tf0KDH5JNFZDhrI9Wzak-14" value="programable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="565" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tf0KDH5JNFZDhrI9Wzak-15" value="Lens L3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="780" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
