@@ -60,7 +60,7 @@ graph TD
 ```
 
 * `Permanent Level  Data Availability`, data availability is the most important things in the decentralized network and db3 network uses arweave as a long term data availability layer to achieve the permanent level data availability
-* `Data-Rollup`, db3 network itself will act a short term data availability layer and uses ar-rollup to improve the write throughput, reduce the storage cost and support privacy protection
+* `Data-Rollup`, db3 network itself will act a short term data availability layer and uses data-rollup to improve the write throughput, reduce the storage cost and support privacy protection
 * `Web2 Developer Experience`, you can use db3.js like using firebase sdk
 
 ## DIPS
