@@ -67,6 +67,7 @@ graph TD
 | title   |    author     | status |
 |----------|-------------|---------|
 |[DIP-000: Structured Binary Data Format](./dips/dip-000.md)| [imotai](https://github.com/imotai) | wip |
+|[DIP-001: The world state of layer 2](./dips/dip-001.md)| [imotai](https://github.com/imotai) | wip |
 
 ## Contribution
 
